@@ -1,0 +1,5 @@
+<%= form_tag pages_path do %>
+  Enter a URL to parse:
+  <%= text_field_tag :url, '', size: 40 %>
+  <%= submit_tag "Parse it!" %>
+<% end %>
